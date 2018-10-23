@@ -39,6 +39,9 @@ export default class App extends React.Component {
         // to remove this if you are not using it in your app
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
       }),
+      Font.loadAsync({ 'Material Icons': 
+        require('@expo/vector-icons/fonts/MaterialIcons.ttf') 
+      }),
     ]);
   };
 
